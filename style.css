@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    color: #166B7D;
+    background: linear-gradient(#C4D4CF, #090D20);
+
+}
+
+.birthday-girl {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid #166B7D;
+}
+
+#header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#b-age {
+    background: #166B7D;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px 0px 2px 0px;
+    color: white;
+}
+
+.gift-section {
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.gift-title {
+    margin-bottom: 5px;
+}
+
+.gift-hint {
+    margin-top: 10px;
+}
+
+#b-date {
+    background: #166B7D;
+    padding: 3px 06px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.gift-image {
+    height: 400px;
+    width: 400px;
+    border: 4px solid red;
+    border-radius: 10px;
+    background-image: url("./cover\ image.jpg");
+    margin: 0 auto;
+
+}
+#gift-image-happy:hover{
+            background-image: url("./happy.gif");
+            border: 4px solid black;
+            background-size: cover;
+}
+
+#gift-image-hot:hover{
+    background-image: url("./hot.gif");
+    background-size: cover;
+    border: 4px solid black;
+}
+#gift-image-genius:hover{
+    background-image: url("./genius.gif");
+    background-size: cover;
+    border: 4px solid black;
+}
+#gift-image-badass:hover{
+    background-image: url("./black\ widow.jpg");
+    background-size: cover;
+    border: 4px solid black;
+}
+#gift-image-fnl:hover{
+    background-image: url("./paris.gif");
+    background-size: cover;
+    
+}
+.gift-image-final{
+    height: 200px;
+    width: 400px;
+    background-image: url("./cover\ image.jpg");
+    border: 4px solid red;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.footer{
+    margin-top: 10px;
+    font-size: 20px;    
+    margin: 20px auto;
+    width: 400px;
+    color: white;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
